@@ -8,4 +8,4 @@ Spring Validation 프로젝트
 
 ## Validation 시 주의할 사항
 
-- Validation 하는 Object 에 Object Field 가 있을 시 그 필드도 Validation 하고 싶다면 @Valid Annotation 을 
+- Validation 하는 Object 에 Object Field 가 있을 시 그 필드도 Validation 하고 싶다면 @Valid Annotation 을 붙여줘야한다.
