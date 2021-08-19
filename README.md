@@ -8,4 +8,5 @@ Spring Validation 프로젝트
 
 ## Validation 시 주의할 사항
 
-- Validation 하는 Object 에 Object Field 가 있을 시 그 필드도 Validation 하고 싶다면 @Valid Annotation 을 붙여줘야한다.
+- @AssertTrue Annotation 사용 시 리턴 타입이 boolean 일 경우 method 의 이름앞에 is를 붙여줘야함
+- Validation 하는 Object 에 Object Field 가 있을 시 그 필드도 Validation 하고 싶다면 @Valid Annotation 을 붙여줘야
