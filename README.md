@@ -3,8 +3,8 @@ Spring Validation 프로젝트
 
 ## Custom Validation
 
-1. AssertTrue / False 와 같은 method 지정을 통해서 Custom Logic 적용 가능
-2. ConstraintValidator 를 적용하여 재사용이 가능한 Custom Logic 적용 가능
+1. AssertTrue / False 와 같은 method 지정을 통해서 Custom Logic 적용 가능 - 재활용 불가능함
+2. ConstraintValidator 를 적용하여 재사용이 가능한 Custom Logic 적용 가능 - 재활용 가능함
 
 ## Validation 시 주의할 사항
 
