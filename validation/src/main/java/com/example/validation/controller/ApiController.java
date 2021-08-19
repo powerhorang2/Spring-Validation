@@ -31,7 +31,7 @@ public class ApiController {
 				System.out.println(message);
 				
 				sb.append("field : " + field.getField() + "\n");
-				sb.append("message : " + message);
+				sb.append("message : " + message + "\n");
 			});
 			
 			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(sb.toString());
